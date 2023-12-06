@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* Bege claro */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f5f5dc; /* Bege claro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, p {
+    color: orange; /* Letras laranjas */
+}
+
+.instrucoes {
+    margin: 20px 0;
+}
+
+ol {
+    padding-left: 0px;
+    text-align: left;
+    list-style-position: inside;
+}
+ol li {
+    text-align: center;
+}
+.qr-code {
+    padding: 20px;
+    margin-top: 30px;
+}
+body {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 10px;
+}
+.campo_a {
+    width: 40%;
+    resize: none;  /* Impede o redimensionamento manual pelo usuário */
+    overflow: hidden; /* Oculta a barra de rolagem vertical */
+    text-align: center; /* Centraliza o texto no textarea */
+    font-size: 18px; /* Ajuste o tamanho do texto conforme necessário */
+    line-height: 1;
+    justify-content: center;
+}
+.copiar {
+    margin-top: 5px; /* Adiciona espaço entre o textarea e o botão */
+    height: 50px;
+    width: 30%;
+}
+
+

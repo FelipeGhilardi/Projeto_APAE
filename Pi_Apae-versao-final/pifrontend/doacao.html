@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Doações via Pix para APAE São Caetano do Sul</title>
+    <link rel="shortcut icon" href="img/sologo.png">
+    <link rel="stylesheet" href="css/stylepag.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Doações para a APAE São Caetano do Sul</h1>
+        <p>A sua contribuição é muito importante! Siga as instruções abaixo para realizar sua doação via Pix.</p>
+        
+        <!-- Instruções para pagamento via Pix -->
+        <div class="instrucoes">
+            <h2>Como Realizar um Pagamento via Pix</h2>
+            <ol>
+                <li>Em seu dispositivo, acesse o aplicativo do seu banco e vá até a área Pix;.</li>
+                <li>Na tela principal, procure a opção <strong>Pix</strong>.</li>
+                <li>Escolha a opção <strong>Pagar com Pix</strong>.</li>
+                <li>Selecione a opção <strong>QR Code</strong>.</li>
+                <li>Aponte a câmera do celular para a imagem do QR Code</li>
+                <li>Caso prefira, você também pode digitar ou copiar e colar a chave Pix fornecida pela APAE de São Caetano do Sul.</li>
+                <li>Insira o <strong>valor</strong> desejado</li>
+                <li>Confira os dados e confirme o pagamento.</li>
+                <li>Pronto! Sua doação foi realizada com sucesso.</li>
+            </ol>
+            <p>Lembre-se: qualquer valor é bem-vindo e faz uma grande diferença!</p>
+        </div>
+
+        <!-- Espaço reservado para o QR Code -->
+        <div class="qr-code">
+            <img src="img/qrcode.jpeg" alt="" height="300" width="300">
+            <p>Você está com problemas para ler o código QR Code? Copie o código abaixo e insira-o manualmente na opção transferência CPF/CNPJ</p>
+            <textarea name="campo_a" rows="1" cols="10" class="campo_a">  44.390.474/0001-62               
+            </textarea>
+            <br>
+            <br>
+
+            <button type="button" class="copiar">Copiar</button>
+        <script>
+            
+        // Receber os seletores do HTML com JavaScript
+        const btnCopiar = document.querySelector('.copiar');
+        const textAreaCampoA = document.querySelector('.campo_a');
+        // Aguardar o click do usuário no botão copiar
+        btnCopiar.addEventListener('click', (e) => {
+            //e.preventDefault();
+            //console.log(textAreaCampoA.value);
+            // Sweetalert - https://celke.com.br/artigo/como-usar-sweetalert-no-formulario-com-javascript-e-php
+            alert('Texto copiado com sucesso! Cole no seu dispositivo, na opção "Pix Copie e Cole".');
+        });
+        </script>    
+        
+        </div>
+    </div>
+</body>
+</html>
